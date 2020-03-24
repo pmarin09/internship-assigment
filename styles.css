@@ -9,10 +9,9 @@ div {
      text-align: center;
   }
   .navbar-toggler{
-      margin-left: 150px;
+      /* margin-left: 150px; */
   }
 
-  
 .news{
     background:#537f88;
     height:35px;
@@ -26,6 +25,9 @@ div {
     margin: auto;
     display: -webkit-inline-box;
 }
+.main-grid-m{
+    display:block;
+    }
 .main-image{
     width: 925px;
     margin-left: 110px;
@@ -48,9 +50,6 @@ div {
     padding: 5px;
   }
 
-.navbar-toggler-icon{
-    color: beige;
-}
 #full-img{
 max-width: 900px
 }
@@ -60,13 +59,4 @@ max-width: 900px
       width: 100%;
       margin:auto;
     }
-    .main-grid{
-    display:block;
-    }
-    .navbar-toggler{
-      margin:auto;
-    }
-    .navbar-toggler-icon{
-        float:left;
-      }
 }
