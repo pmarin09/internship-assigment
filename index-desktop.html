@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <div class="news"></div>
+        <div>
+            <nav class="navbar navbar-light">
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse"  
+                    aria-controls="navbarToggleExternalContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </nav>
+        </div> 
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="main-grid">
+                <div class= "main-image">
+                <img id="full-img" class = "main-img" src= /home/patrick/InternshipAssigment/images/bed2.jpg>
+                <p class= "price">Price: $104.99</p>
+                </div>
+                <div class= "thumbnail-grid">
+                    <div class="thumbnail-images"><img class = "thumb-img" src= /home/patrick/InternshipAssigment/images/bed2.jpg onclick="imgExpand(this)"></div>
+                    <div class="thumbnail-images"><img class = "thumb-img" src= /home/patrick/InternshipAssigment/images/bed3.jpg onclick="imgExpand(this)"></div>
+                    <div class="thumbnail-images"><img class = "thumb-img" src= /home/patrick/InternshipAssigment/images/bed4.jpg onclick="imgExpand(this)"></div>
+                    <div class="thumbnail-images"><img class = "thumb-img" src= /home/patrick/InternshipAssigment/images/bed5.jpg onclick="imgExpand(this)"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function imgExpand(imgs) {
+              var expandImg = document.getElementById("full-img");
+              expandImg.src = imgs.src;
+            }
+        </script>
+    </body>
+</html>
